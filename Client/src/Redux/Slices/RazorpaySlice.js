@@ -6,7 +6,7 @@ import axiosInstance from "../../Helpers/axiosinstance";
 const initialState = {
     key: "",
     subscription_id: "",
-    isPaymentVerified: false,
+    isPaymentVerified: true,
     allPayments: {},
     finalMonths: {},
     monthlySalesRecord: []
